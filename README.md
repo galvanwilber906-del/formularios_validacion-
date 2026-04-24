@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Formulario Completo</title>
+    <title>Formulario</title>
 </head>
 <body>
 
@@ -12,22 +12,22 @@
 
         <!-- Nombre -->
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" value="wilber galvan" required>
+        <input type="text" id="nombre" name="nombre" required>
         <br><br>
 
         <!-- Correo -->
         <label for="correo">Correo:</label>
-        <input type="email" id="correo" name="correo" value="galvanwilber906@gmail.com" required>
+        <input type="email" id="correo" name="correo" required>
         <br><br>
 
         <!-- Edad -->
         <label for="edad">Edad:</label>
-        <input type="number" id="edad" name="edad" value="18" min="1" max="100" required>
+        <input type="number" id="edad" name="edad" min="1" max="100" required>
         <br><br>
 
         <!-- Fecha de nacimiento -->
         <label for="fecha">Fecha de nacimiento:</label>
-        <input type="date" id="fecha" name="fecha" value="2008-01-13" required>
+        <input type="date" id="fecha" name="fecha" required>
         <br><br>
 
         <!-- Contraseña -->
